@@ -37,11 +37,12 @@ We use UseRef for form Handling, useRef can’t render the whole component,
 # What is React Router DOM?
 React Router DOM is a popular library used for handling routing in React applications.
 # React Router Dom Routes
-1) '<BrowserRouter>'
-2) '<Routes>'
-3) '<Route path=” ” element={}/>
-2) '</Routes>'
-1) '</BrowserRouter>'
+1) BrowserRouter
+2) Routes
+3) Route path=” ” element={}
+2) Routes
+1) BrowserRouter
+You must open and close the routes
 
 #  What is Virtual Dom?
 It is a carbon copy of real DOM when you make any changes to a component or a state of react application, react create a virtual dom, then it compares this updated virtual dom with previous one to identify the specific change that occurred. Once it determines the difference (known as “diffing” process) finally only those specific changes are applied to the real dom.
@@ -54,7 +55,7 @@ Props are read-only and can’t modified by child component
 Map Method is used for creating a new array from existing one
 
 SYNTAX:
-{ data.map((el)=>{return(<p>{el.title})})}
+{ data.map((el)=>{return({el.title})})}
 
 
 Currently, two official plugins are available:

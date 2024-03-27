@@ -7,6 +7,7 @@ Before Stating this project you should have basic knowledge of
 3) React
 4) React Hooks "useState, useEffect, useRef" Definitions of Hooks are given Below
 5) React Routes "React Router Dom"
+   
 # React Interview Questions
 
 # What is Hooks?
@@ -42,6 +43,7 @@ React Router DOM is a popular library used for handling routing in React applica
 3) Route path=” ” element={}
 2) Routes
 1) BrowserRouter
+
 You must open and close the routes
 
 #  What is Virtual Dom?
@@ -57,8 +59,10 @@ Map Method is used for creating a new array from existing one
 SYNTAX:
 { data.map((el)=>{return({el.title})})}
 
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Other Question that the interviewer may be asked
+# Waht is HTTP Request and its types?
+1) Get: Retrieve information from the specific resource, and should only be used to request data(not modify it). (read only)
+2) Post: Sends data to the server for processing, usually resulting in a change in the server state or side effects on the server.(send only)
+3) Put:  Updates a current resource or creates it if it doesn't exist, with the client providing a complete and updated copy of the resource.
+4) Patch:  Updates parts of an existing resource, with the client providing only the parts of the resource that need to be updated.
+5) Delete: Removes the specified resource from the server.(Delete the data)

@@ -5,9 +5,10 @@ Before Stating this project you should have basic knowledge of
 1) HTML
 2) CSS
 3) React
-4) React Hooks "useState, useEffect, useRef" you can definitions of Hooks Below
+4) React Hooks "useState, useEffect, useRef" Definitions of Hooks are given Below
 5) React Routes "React Router Dom"
-   
+# React Interview Questions
+
 # What is Hooks?
 Hooks is a normal function of javascript. In react we can't update the variable of UI Component that is why we use hooks.
 # Hooks Conditions
@@ -36,12 +37,24 @@ We use UseRef for form Handling, useRef can’t render the whole component,
 # What is React Router DOM?
 React Router DOM is a popular library used for handling routing in React applications.
 # React Router Dom Routes
-<BrowserRouter>
-<Routes>
-<Route path=” ” element={}/>
-</Routes>
-</BrowserRouter>
+1) <BrowserRouter>
+2) <Routes>
+3) <Route path=” ” element={}/>
+2) </Routes>
+1) </BrowserRouter>
 
+#  What is Virtual Dom?
+It is a carbon copy of real DOM when you make any changes to a component or a state of react application, react create a virtual dom, then it compares this updated virtual dom with previous one to identify the specific change that occurred. Once it determines the difference (known as “diffing” process) finally only those specific changes are applied to the real dom.
+# What is Reconciliation?
+Process of comparing the current virtual dom with the previous one, identifying the difference and updating the real dom is called reconciliation.
+# What is Props?
+Props are basically used to pass data from one component (Parent) to another component(Child).
+Props are read-only and can’t modified by child component
+# What is Map?
+Map Method is used for creating a new array from existing one
+SYNTAX:
+data.map((el)=>{
+return(<h1><p>{el.tittle})})
 
 
 

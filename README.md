@@ -1,6 +1,11 @@
 # Vite Project with Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+If you are Fresher and you are try to make project in react or vite with tailwind CSS this product will support you alot
+Before Stating this project you should have basic knowledge of
+1) HTML
+2) CSS
+3) React
+4) React Hooks "useState, useEffect" you can definitions of Hooks Below
 
 Currently, two official plugins are available:
 

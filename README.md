@@ -6,6 +6,9 @@ Before Stating this project you should have basic knowledge of
 2) CSS
 3) React
 4) React Hooks "useState, useEffect" you can definitions of Hooks Below
+   # Q) What is Hooks?
+Hooks is a normal function of javascript. In react we can't update the variable of UI Component that is why we use hooks.
+
 
 Currently, two official plugins are available:
 

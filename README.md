@@ -52,9 +52,10 @@ Props are basically used to pass data from one component (Parent) to another com
 Props are read-only and can’t modified by child component
 # What is Map?
 Map Method is used for creating a new array from existing one
+
 SYNTAX:
-1) 'data.map((el)=>{'
-2) 'return(<h1><p>{el.tittle})})'
+{ data.map((el)=>{return(<h1><p>{el.tittle})})}
+
 
 Currently, two official plugins are available:
 

@@ -6,8 +6,21 @@ Before Stating this project you should have basic knowledge of
 2) CSS
 3) React
 4) React Hooks "useState, useEffect" you can definitions of Hooks Below
-   # Q) What is Hooks?
+   
+# Q) What is Hooks?
 Hooks is a normal function of javascript. In react we can't update the variable of UI Component that is why we use hooks.
+# Hooks Conditions
+1) Hooks are top level of function component
+2) Hooks Import
+3) Don’t call inside the loop, if else or nested function
+4) Must be written inside function component
+# What is useState?
+Stata is a javascript object that holds some information about components that may be changed over time.
+Syntax:
+Const [temp,setTemp] = usestate (5)
+They return two value one is Current value and second is function"The value that is changed over time"
+
+
 
 
 Currently, two official plugins are available:

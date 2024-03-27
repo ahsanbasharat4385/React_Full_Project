@@ -54,7 +54,7 @@ Props are read-only and can’t modified by child component
 Map Method is used for creating a new array from existing one
 
 SYNTAX:
-{ data.map((el)=>{return(<h1><p>{el.tittle})})}
+{ data.map((el)=>{return(<p>{el.title})})}
 
 
 Currently, two official plugins are available:

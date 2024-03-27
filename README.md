@@ -59,9 +59,10 @@ Map Method is used for creating a new array from existing one
 SYNTAX:
 { data.map((el)=>{return({el.title})})}
 
-# Other Question that the interviewer may be asked
+# ""-----> Other Question that the interviewer may be asked <-----""
+
 # Waht is HTTP Request and its types?
-1) Get: Retrieve information from the specific resource, and should only be used to request data(not modify it). (read only)
+1) <b> Get:</b> Retrieve information from the specific resource, and should only be used to request data(not modify it). (read only)
 2) Post: Sends data to the server for processing, usually resulting in a change in the server state or side effects on the server.(send only)
 3) Put:  Updates a current resource or creates it if it doesn't exist, with the client providing a complete and updated copy of the resource.
 4) Patch:  Updates parts of an existing resource, with the client providing only the parts of the resource that need to be updated.

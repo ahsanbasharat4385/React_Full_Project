@@ -13,37 +13,37 @@ const Footer = () => {
     <div className=" w-full bg-black text-white">
       <div className="grid  grid-cols-2 md:grid-cols-3 py-5  pl-3">
         <div>
-          <Link to="/">
-            <p className="  w-[10%] text-[20px] md:text-[25px] font-semibold mb-3  cursor-pointer  hover:font-bold hover:w-[140px] hover:rounded-full hover:text-center">
-              Lucky
-              <span className="text-[#fa4d4d]">Food</span>
-            </p>
-          </Link>
+          <p className="  w-[10%] text-[20px] md:text-[25px] font-semibold mb-3 ">
+            Lucky
+            <span className="text-[#fa4d4d]">Food</span>
+          </p>
 
           <p className="text-[15px] md:text-[20px]">
             © 2024 BookKeeping Pro Pvt. Ltd{" "}
           </p>
         </div>
 
-        <div >
+        <div>
           <h1 className=" font-bold mb-3 text-[20px] md:text-[25px]">
             Company
           </h1>
-          <Link to="/">
-            <p className="text-[15px] md:text-[20px] mb-2  hover:w-[19%] hover:h-[14%] hover:rounded-xl hover:font-bold hover:text-center">
-              Home
-            </p>
-          </Link>
-          <Link to="/aboutus">
-            <p className="text-[15px] md:text-[20px] mb-2 hover:w-[22%] hover:h-[14%] hover:rounded-xl hover:font-bold hover:text-center">
-              About Us
-            </p>
-          </Link>
-          <Link to="/ourfood">
-            <p className="text-[15px] md:text-[20px] mb-2 hover:w-[23%] hover:h-[14%] hover:rounded-xl hover:font-bold hover:text-center">
-              Our Foods
-            </p>
-          </Link>
+          <div className="w-[100px]">
+            <Link to="/">
+              <p className="text-[15px] md:text-[20px] mb-2  hover:w-full hover:h-[14%] hover:rounded-xl hover:font-bold hover:text-center">
+                Home
+              </p>
+            </Link>
+            <Link to="/aboutus">
+              <p className="text-[15px] md:text-[20px] mb-2 hover:w-full hover:h-[14%] hover:rounded-xl hover:font-bold hover:text-center">
+                About Us
+              </p>
+            </Link>
+            <Link to="/ourfood">
+              <p className="text-[15px] md:text-[20px] mb-2 hover:w-full hover:h-[14%] hover:rounded-xl hover:font-bold hover:text-center">
+                Our Foods
+              </p>
+            </Link>
+          </div>
         </div>
 
         <div>

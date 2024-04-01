@@ -5,6 +5,7 @@ import {
   faFacebook,
   faWhatsapp,
   faLinkedin,
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 
@@ -65,7 +66,7 @@ const Footer = () => {
             href="https://www.facebook.com/profile.php?id=100014622221972"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[15px] md:text-[20px] mb-2 mr-3 hover:w-[26%] hover:h-[14%] hover:rounded-xl hover:font-bold hover:text-blue-600 inline-flex items-center hover:justify-center"
+            className="  text-[15px] md:text-[20px] mb-2 mr-3 hover:w-[26%] hover:h-[14%] hover:rounded-xl hover:font-bold hover:text-blue-600 inline-flex items-center hover:justify-center"
           >
             <FontAwesomeIcon icon={faFacebook} className="mr-1" />
             Facebook
@@ -75,7 +76,7 @@ const Footer = () => {
             href="https://wa.me/+923014385464"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[15px] md:text-[20px] mb-2 mr-3 flex items-center hover:w-[28%] hover:h-[13%] hover:text-blue-600 hover:font-bold hover:rounded-xl hover:justify-center"
+            className=" text-[15px] md:text-[20px] mb-2 mr-3 flex items-center hover:w-[28%] hover:h-[13%] hover:text-blue-600 hover:font-bold hover:rounded-xl hover:justify-center"
           >
             <FontAwesomeIcon icon={faWhatsapp} className="mr-1" />
             WhatsApp
@@ -84,12 +85,26 @@ const Footer = () => {
             href="https://www.linkedin.com/in/ahsan-basharat-04b967290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[15px] md:text-[20px] mb-2 mr-3 flex items-center w-[21%]  hover:w-[25%] hover:h-[10%]  hover:rounded-xl hover:text-blue-600 hover:font-bold hover:justify-center"
+            className=" text-[15px] md:text-[20px] mb-2 mr-3 flex items-center w-[21%]  hover:w-[25%] hover:h-[10%]  hover:rounded-xl hover:text-blue-600 hover:font-bold hover:justify-center"
           >
             <FontAwesomeIcon icon={faLinkedin} className="mr-1" />
             LinkedIn
           </a>
         </div>
+      </div>
+      <div className=" flex flex-row  justify-center">
+        <p className=" font-semibold text-[25px] mr-2  text-yellow-500 ">
+          For more projects you can visit my github repository:
+        </p>
+        <a
+          href="https://github.com/ahsanbasharat4385"
+          target="_blank"
+          rel="noopener noreferrer"
+          className=" mt-1 rounded-xl text-[15px] md:text-[20px] mb-2 mr-3 flex items-center w-[8%] hover:w-[10%] hover:rounded-xl hover:text-yellow-400 hover:font-bold hover:justify-center"
+        >
+          <FontAwesomeIcon icon={faGithub} className="mr-1" />
+          GitHub
+        </a>
       </div>
     </div>
   );

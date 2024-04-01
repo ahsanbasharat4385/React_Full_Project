@@ -28,7 +28,7 @@ const Hero = () => {
   useEffect(() => {
     const SliderClear = setInterval(() => {
       handlePlus();
-    }, 2000);
+    }, 3000);
     return () => clearInterval(SliderClear);
   }, [slider]);
 

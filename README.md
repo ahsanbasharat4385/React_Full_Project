@@ -1,3 +1,16 @@
+# Some pictures of this project
+# Home Page with Header
+![Screenshot (9)](https://github.com/ahsanbasharat4385/React_Full_Project/assets/163886352/4620eb6b-2d92-4bea-947c-0e3cefa963bd)
+
+![Screenshot (10)](https://github.com/ahsanbasharat4385/React_Full_Project/assets/163886352/1beb09cc-c50c-4d07-ba4f-5e1eba9804e8)
+# Footer
+![Screenshot (11)](https://github.com/ahsanbasharat4385/React_Full_Project/assets/163886352/dc230c76-ee1d-4369-bd4e-70d26c8aa02d)
+# Our Food page
+![Screenshot (14)](https://github.com/ahsanbasharat4385/React_Full_Project/assets/163886352/a30fbede-95c3-4db2-8c66-bc0d3e4b6312)
+# SignUp Page
+![Screenshot (15)](https://github.com/ahsanbasharat4385/React_Full_Project/assets/163886352/512311d8-6c97-4aae-a6a8-6a4641b9838c)
+
+<b>To run this project just download the zip file and extract it in your any drive and open it in your visual studio code and run command "npm install" make sure node.js is installed on your laptop</b>
 # Vite Project with Tailwind CSS
 
 If you are Fresher and you are try to make project in react or vite with tailwind CSS this product will support you alot

@@ -93,11 +93,11 @@ Variable are used to store data
 Three types of variables : lets var and const
 # 5) When to Use var, let, or const?
 1) Always declare variables
-2) Always use const if the value should not be changed
-3) Always use const if the type should not be changed (Arrays and Objects)
-4) Only use let if you can't use const
-5) Only use var if you MUST support old browsers.
-6) Let and const has Block Scope and var has Global Scope
+2) Always use <b>const</b> if the value should not be changed
+3) Always use <b>const</b> if the type should not be changed (Arrays and Objects)
+4) Only use <b>let</b> if you can't use const
+5) Only use <b>var</b> if you MUST support old browsers.
+6) <b>Let</b> and <b>const</b> has Block Scope and var has Global Scope
 # 6) What is hoist in Js?
 Means: a variable can be used before it has been declared.
 

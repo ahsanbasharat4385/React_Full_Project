@@ -12,6 +12,12 @@
 ![Screenshot (15)](https://github.com/ahsanbasharat4385/React_Full_Project/assets/163886352/512311d8-6c97-4aae-a6a8-6a4641b9838c)
 
 <b>To run this project just download the zip file and extract it in your any drive and open it in your visual studio code and run command "npm install" make sure node.js is installed on your laptop</b>
+
+# Contact
+<p> <b>Name: Ahsan Basharat</b></p>
+<p><b>Contact No.: +923014385464</b></p>
+<p><b>Gmail: ahsanbasharat4385@gmail.com</b></p>
+
 # Vite Project with Tailwind CSS
 
 If you are Fresher and you are try to make project in react or vite with tailwind CSS this product will support you alot
